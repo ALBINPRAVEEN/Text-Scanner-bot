@@ -1,0 +1,3 @@
+requests
+telegram==0.0.1
+python-telegram-bot==12.8
