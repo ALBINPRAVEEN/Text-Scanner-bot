@@ -27,7 +27,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: bot run
       run: |
-        python3 main.py
+        python3 bot.py
       env:
         API_KEY: ${{ secrets.API_KEY }}
         CHANNEL: ${{ secrets.CHANNEL }}
